@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جودة الحياة الجامعية</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            direction: rtl;
+            text-align: right;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #004d40;
+            text-align: center;
+        }
+        .section {
+            margin: 2rem 0;
+            text-align: right;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: right;
+        }
+        ul li {
+            background-color: #e0f2f1;
+            margin: 0.5rem 0;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: right;
+        }
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .button {
+            background: #004d40;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            display: block;
+            margin: auto;
+        }
+        .button:hover {
+            background: #00332b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>جودة الحياة الجامعية</h1>
+        <p class="intro">مرحبًا بجميع الطلاب والطالبات في منصتنا! توفر هذه المنصة الفرصة لاكتشاف اهتماماتكم ومواهبكم والمشاركة في الأنشطة المختلفة.</p>
+
+        <div class="section">
+            <h2>تسجيل الدخول</h2>
+            <p>أدخل رقمك الجامعي للبدء:</p>
+            <input class="input-field" type="text" placeholder="أدخل رقمك الجامعي">
+            <button class="button">تسجيل الدخول</button>
+        </div>
+
+        <div class="section">
+            <h2>مسارات الأنشطة بعمادة شؤون الطلاب</h2>
+            <ul>
+                <li><a href="#cultural">الأنشطة الثقافية والاجتماعية</a></li>
+                <li><a href="#sports">الأنشطة الرياضية</a></li>
+                <li><a href="#guidance">مركز الرعاية والاستشارات الطلابية</a></li>
+                <li><a href="#talent">الموهبة والإبداع</a></li>
+                <li><a href="#training">وحدة التدريب الطلابي</a></li>
+            </ul>
+        </div>
+
+        <div class="section" id="cultural">
+            <h2>الأنشطة الثقافية والاجتماعية</h2>
+            <ul>
+                <li>النشاط المسرحي</li>
+                <li>النشاط الكشفي</li>
+                <li>تنظيم البرامج والفعاليات الكبرى</li>
+            </ul>
+        </div>
+
+        <div class="section" id="sports">
+            <h2>الأنشطة الرياضية</h2>
+            <ul>
+                <li>كرة القدم</li>
+                <li>كرة السلة</li>
+                <li>تنس الطاولة</li>
+                <li>الشطرنج</li>
+                <li>الملاكمة</li>
+                <li>رياضة البادل</li>
+            </ul>
+        </div>
+
+        <div class="section" id="guidance">
+            <h2>مركز الرعاية والاستشارات الطلابية</h2>
+            <ul>
+                <li>الإرشاد الطلابي - دعم الطلاب وتقديم الاستشارات</li>
+                <li>وحدة ذوي الإعاقة - تمكين ودعم الطلاب ذوي الاحتياجات الخاصة</li>
+            </ul>
+        </div>
+
+        <div class="section" id="talent">
+            <h2>الموهبة والإبداع</h2>
+            <ul>
+                <li><input type="checkbox"> الرسم</li>
+                <li><input type="checkbox"> الكتابة</li>
+                <li><input type="checkbox"> البرمجة</li>
+                <li><input type="checkbox"> التصميم</li>
+                <li><input type="checkbox"> التصوير</li>
+                <li><input type="checkbox"> الإلقاء</li>
+                <li><input type="checkbox"> الشعر</li>
+                <li><input type="checkbox"> الخطابة</li>
+                <li><input type="text" class="input-field" placeholder="أضف موهبة أخرى"></li>
+            </ul>
+        </div>
+
+        <div class="section" id="training">
+            <h2>وحدة التدريب الطلابي</h2>
+            <p>توثيق المهارات المكتسبة ومنح الطلاب صلاحية تقديم الدورات المعتمدة بإشراف وحدة التدريب وتنظيم عمادة شؤون الطلاب.</p>
+            <ul>
+                <li>إدخال الخبرات التدريبية والمهارات المكتسبة:</li>
+                <textarea class="input-field" placeholder="اكتب خبراتك ومهاراتك هنا..."></textarea>
+                <li>إرفاق شهادات التدريب أو السيرة الذاتية (ملف PDF فقط، يجب أن تكون الشهادة معتمدة):</li>
+                <input class="input-field" type="file" accept="application/pdf">
+            </ul>
+        </div>
+
+        <div class="section" id="survey">
+            <h2>استطلاع رأي الطلاب والطالبات</h2>
+            <p>شاركنا رأيك حول الأوقات المناسبة لتنظيم الفعاليات والبرامج الكبرى:</p>
+            <textarea class="input-field" placeholder="اكتب رأيك هنا..."></textarea>
+        </div>
+
+        <div class="section" id="suggestions">
+            <h2>إضافة المقترحات</h2>
+            <p>أضف مقترحاتك وتطلعاتك لتطوير الخدمات الجامعية:</p>
+            <textarea class="input-field" placeholder="اكتب مقترحاتك هنا..."></textarea>
+        </div>
+    </div>
+</body>
+</html>
